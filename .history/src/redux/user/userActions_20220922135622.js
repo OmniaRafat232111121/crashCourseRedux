@@ -3,13 +3,7 @@ import { FETCH_USERS_FAILURE, FETCH_USERS_REQUEST, FETCH_USERS_SUCCESS } from '.
 export const fetchUsers = () => {
    return function(dispatch){
     axios.then('https://jsonplaceholder.typicode.com/users')
-    .then(response=>{
-      const users=response.data
-      dispatch(fetchUsersSuccess(users))
-    })
-    .catch(error=>{
-      dispatch(fetchUsersFailure(error.message))
-    })
+    .then(respon)
    }
   }
   
