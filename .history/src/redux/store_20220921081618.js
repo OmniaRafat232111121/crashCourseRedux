@@ -1,1 +1,0 @@
-import {confStore} from 'redux'
